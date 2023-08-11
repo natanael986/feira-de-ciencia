@@ -1,0 +1,40 @@
+section {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    text-align: center;
+    color: #333;
+    position: relative;
+}
+
+section div {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.div-mostra {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input[type="submit"]{
+    box-shadow: none;
+    border: none;
+    outline: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #f2f2f2;
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
